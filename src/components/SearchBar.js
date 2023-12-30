@@ -3,7 +3,7 @@ import React from 'react';
 import { View, Text, StyleSheet, TextInput } from 'react-native';
 import { Feather } from '@expo/vector-icons';
 
-const SearchBar = ({ onTermSubmit, onTermChange, searchTerm }) => {
+const SearchBar = ({ onTermChange, onTermSubmit, searchTerm }) => {
   return (
     <View style={styles.containerStyle}>
       <Feather name="search" style={styles.iconStyle} />
